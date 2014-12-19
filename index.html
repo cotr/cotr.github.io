@@ -1,10 +1,166 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>服务暂时无法提供 - 酷创工作室</title>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/ripples.min.css" rel="stylesheet">
+  <link href="css/material.min.css" rel="stylesheet">
+
+  <style>
+    .header {
+      height: 600px;
+    }
+    .header-content {
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .header-title {
+      height: 460px;
+      padding-top: 152px;
+      color: #ffffff;
+      text-align: center;
+    }
+    .header-title-text {
+      font-size: 80px;
+    }
+    .header-title-btn {
+      padding-top: 20px;
+    }
+
+    .content {
+      padding-top: 60px;
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+    .content-header {
+      padding-top: 20px;
+      padding-bottom: 15px;
+    }
+    .content-header-heading {
+      font-size: 48pt;
+      display: inline-block;
+    }
+    .content-header-sub {
+      font-size: 48pt;
+      display: inline-block;
+      color: #9e9e9e;
+    }
+    .content-text {
+      font-size: 16pt;
+    }
+    .content-btn {
+      font-size: 24pt;
+    }
+
+    .footer {
+      padding-top: 40px;
+      height: 40px;
+      font-size: 16pt;
+      color: #ffffff;
+    }
+    .footer-content {
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+    a, a:hover, a:focus {
+      color: #ffffff;
+    }
+  </style>
 </head>
 <body>
-	您好，我们的官网正在改版，暂时无法访问，带来的不便敬请谅解。你可以访问我们的<a href="blog.cotr.me">博客</a>。
+  <div class="header well-material-deep-purple shadow-z-5">
+    <div class="header-content">
+      <div class="navbar navbar-material-deep-purple">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">酷创</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-inverse-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/">首页</a></li>
+            <li><a href="http://blog.cotr.me">博客</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-title">
+        <div class="header-title-text">一同，更好。</div>
+        <div class="header-title-btn">
+          <button type="button" class="btn btn-material-deep-orange">Join us!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content well-material-light-grey">
+    <div>
+      <div class="content-header">
+        <div class="content-header-heading">
+          关于
+        </div>
+        <div class="content-header-sub text-material-grey">
+          ABOUT
+        </div>
+      </div>
+      <div class="content-text">
+        <p>酷创工作室是一个非社团学生独立学术组织，成立于2014年。作为沈阳市领先的学生开发者组织，我们持续致力于设计和开发优秀的产品，
+        帮助同学们提升各方面的水平。</p>
+      </div>
+    </div>
+    <div>
+      <div class="content-header">
+        <div class="content-header-heading">
+          成果
+        </div>
+        <div class="content-header-sub text-material-grey">
+          FEAT
+        </div>
+      </div>
+      <div class="content-text">
+        <a href="https://github.com/cotr/PhysicsSimulator" class="btn btn-flat btn-success content-btn">运动学模拟器</a>
+        <a href="https://github.com/cotr/tag-content" class="btn btn-flat btn-danger content-btn">tag-content</a>
+        <a href="http://mooc.cotr.me" class="btn btn-flat btn-info content-btn">MOOC+计算机课程</a>
+      </div>
+    </div>
+    <div>
+      <div class="content-header">
+        <div class="content-header-heading">
+          成员
+        </div>
+        <div class="content-header-sub text-material-grey">
+          MEMBERS
+        </div>
+      </div>
+      <div class="content-text">
+        <a href="javascript:void(0)" class="btn btn-flat btn-warning content-btn">小傅Fox</a>
+        <a href="javascript:void(0)" class="btn btn-flat btn-success content-btn">赵兄1999</a>
+        <a href="javascript:void(0)" class="btn btn-flat btn-success content-btn">柴哥</a>
+        <a href="javascript:void(0)" class="btn btn-flat btn-success content-btn">SSAGOD</a>
+        <a href="javascript:void(0)" class="btn btn-flat btn-success content-btn">游哥</a>
+        <a href="javascript:void(0)" class="btn btn-flat btn-success content-btn">Alex</a>
+        <a href="javascript:void(0)" class="btn btn-flat btn-success content-btn">二氯</a>
+        <a href="javascript:void(0)" class="btn btn-flat btn-info content-btn">CDS</a>
+        <a href="javascript:void(0)" class="btn btn-flat btn-info content-btn">xt</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-content well-material-light-blue">
+      &copy;2015 酷创工作室，保留所有权利。采用<a href="http://fezvrasta.github.io/bootstrap-material-design" class="footer-link">FezVrasta/bootstrap-material-design</a>.
+    </div>
+  </div>
+  <!-- bootstrap meterial design {{ -->
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="js/ripples.min.js"></script>
+  <script src="js/material.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $.material.init();
+    });
+  </script>
+  <!-- }} bootstrap material design -->
 </body>
 </html>
