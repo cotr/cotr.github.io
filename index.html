@@ -18,7 +18,7 @@
     }
     .header-title {
       height: 460px;
-      padding-top: 152px;
+      padding-top: 140px;
       color: #ffffff;
       text-align: center;
     }
@@ -70,7 +70,7 @@
   </style>
 </head>
 <body>
-  <div class="header well-material-deep-purple shadow-z-5">
+  <div class="header well-material-deep-purple shadow-z-2">
     <div class="header-content">
       <div class="navbar navbar-material-deep-purple">
         <div class="navbar-header">
@@ -91,7 +91,7 @@
       <div class="header-title">
         <div class="header-title-text">一同，更好。</div>
         <div class="header-title-btn">
-          <button type="button" class="btn btn-material-deep-orange">Join us!</button>
+          <button class="btn btn-material-deep-purple btn-raised" data-toggle="modal" data-target="#join-dialog">加入我们</button>
         </div>
       </div>
     </div>
@@ -121,9 +121,9 @@
         </div>
       </div>
       <div class="content-text">
-        <a href="https://github.com/cotr/PhysicsSimulator" class="btn btn-flat btn-success content-btn">运动学模拟器</a>
-        <a href="https://github.com/cotr/tag-content" class="btn btn-flat btn-danger content-btn">tag-content</a>
-        <a href="http://mooc.cotr.me" class="btn btn-flat btn-info content-btn">MOOC+计算机课程</a>
+        <a href="https://github.com/cotr/PhysicsSimulator" class="btn btn-flat btn-success content-btn">运动学模拟器</a><br>
+        <a href="https://github.com/cotr/tag-content" class="btn btn-flat btn-danger content-btn">tag-content</a><br>
+        <a href="http://mooc.cotr.me" class="btn btn-flat btn-info content-btn">MOOC+计算机课程</a><br>
       </div>
     </div>
     <div>
@@ -136,13 +136,13 @@
         </div>
       </div>
       <div class="content-text">
-        <a href="javascript:void(0)" class="btn btn-flat btn-warning content-btn">小傅Fox</a>
+        <a href="javascript:void(0)" class="btn btn-flat btn-warning content-btn">小傅Fox</a><br>
         <a href="javascript:void(0)" class="btn btn-flat btn-success content-btn">赵兄1999</a>
         <a href="javascript:void(0)" class="btn btn-flat btn-success content-btn">柴哥</a>
         <a href="javascript:void(0)" class="btn btn-flat btn-success content-btn">SSAGOD</a>
         <a href="javascript:void(0)" class="btn btn-flat btn-success content-btn">游哥</a>
         <a href="javascript:void(0)" class="btn btn-flat btn-success content-btn">Alex</a>
-        <a href="javascript:void(0)" class="btn btn-flat btn-success content-btn">二氯</a>
+        <a href="javascript:void(0)" class="btn btn-flat btn-success content-btn">二氯</a><br>
         <a href="javascript:void(0)" class="btn btn-flat btn-info content-btn">CDS</a>
         <a href="javascript:void(0)" class="btn btn-flat btn-info content-btn">xt</a>
       </div>
@@ -151,6 +151,40 @@
   <div class="footer">
     <div class="footer-content well-material-light-blue">
       &copy;2015 酷创工作室，保留所有权利。采用<a href="http://fezvrasta.github.io/bootstrap-material-design" class="footer-link">FezVrasta/bootstrap-material-design</a>.
+    </div>
+  </div>
+  <div id="join-dialog" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">加入我们</h4>
+        </div>
+        <div class="modal-body">
+          <p><strong>联系方式</strong></p>
+          <ul>
+            <li><p>team@cotr.me</p></li>
+            <li><p>成员招收负责人</p></li>
+            <li><p>新浪微博@酷创</p></li>
+          </ul>
+          <p><strong>成员招收负责人</strong></p>
+          <ul>
+            <li>
+              <p>傅禹泽(小傅Fox)</p>
+              <p>邮箱：xfox@cotr.me</p>
+              <p>QQ：2738243637</p>
+              <p>东北育才学校高中部高一六班</p>
+            </li>
+            <li>
+              <p>赵翔宇(赵兄1999)</p>
+              <p>东北育才学校高中部高一二班</p>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-dismiss="modal">OK</button>
+        </div>
+      </div>
     </div>
   </div>
   <!-- bootstrap meterial design {{ -->
