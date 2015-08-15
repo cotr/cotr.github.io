@@ -1,0 +1,27 @@
+{
+  "name": "Cotr Website",
+  "version": "2.0.0",
+  "homepage": "http://cotr.me",
+  "authors": [
+    "小傅Fox <coderfox.fu@gmail.com>"
+  ],
+  "description": "Website for Cotr Community.",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "cotr",
+    "website",
+    "material"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "~0.97.0"
+  }
+}

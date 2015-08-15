@@ -1,0 +1,22 @@
+.promo {
+  width: 100%;
+}
+@media only screen and (max-width: 992px) {
+  .promo {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+.promo i {
+  margin: 40px 0;
+  color: #ee6e73;
+  font-size: 7rem;
+  display: block;
+}
+.promo-caption {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
